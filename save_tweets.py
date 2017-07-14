@@ -6,7 +6,7 @@ from pymongo import MongoClient
 import sentiment_mod_JV as JV
 
 
-""" Initialize tweepy with Hyun's Twitter API info """
+""" Initialize tweepy with Twitter API info """
 consumer_key = 'put your own consumer key'
 consumer_secret = 'put your own consumer secret'
 access_token = 	'put your own access token'

@@ -4,11 +4,11 @@ import pprint
 import sentiment_mod_J as J
 import sentiment_mod_JV as JV
 
-""" Initialize tweepy with Hyun's Twitter API info """
-consumer_key = 'zheeWCCzpJougMVHJ7gZTdd7p'
-consumer_secret = '1HKFak8plcTzK7YZSQmUKfpHEYpvL2OjefjoMLBxUhvO6nQ7KF'
-access_token = 	'828329068709937152-GPRprU6BKOIbQQ6UjT5BEdFtGWHbGe2'
-access_token_secret = 'Ln5uxoG6AvSl9NtPho5H3fom4LYorAm6Yax1fKPKNyko7'
+""" Initialize tweepy with Twitter API info """
+consumer_key = 'put your own consumer key'
+consumer_secret = 'put your own consumer secret'
+access_token = 	'put your own access token'
+access_token_secret = 'put your own access token secret'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
